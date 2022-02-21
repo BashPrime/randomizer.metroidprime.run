@@ -15,7 +15,7 @@ export const HomePage = () => {
                             <Subtitle className="subtitle">
                                 Spice up your Metroid Prime playthroughs by shuffling items, elevators, and more.
                             </Subtitle>
-                            <Link to="/" className="button is-link">Get Started</Link>
+                            <Link to="/" className="button is-link is-large">Get Started</Link>
                         </div>
                         <div className="column">
                             {/* TODO: Insert a 4:3 Prime screenshot */}
