@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// We import bulma and bulmaswatch here
+import 'bulma/css/bulma.min.css';
+import 'bulmaswatch/darkly/bulmaswatch.min.css';
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
