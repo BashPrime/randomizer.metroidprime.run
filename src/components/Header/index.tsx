@@ -13,7 +13,16 @@ export const Header = () => {
                     <span aria-hidden="true"></span>
                 </a>
             </div>
-        </nav>
+            <div className="navbar-menu">
+                <div className="navbar-end">
+                    <div className="navbar-item">
+                        <a href="https://discord.gg/WWGcay6" target="_blank">
+                            Join our Discord
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav >
     );
 };
 
