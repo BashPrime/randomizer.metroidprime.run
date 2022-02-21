@@ -15,12 +15,9 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        {/* Wrap and center all app content in a Bulma container. */}
-        <div className="container">
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-          </Routes>
-        </div>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+        </Routes>
         <Footer />
       </div>
     </Router>
