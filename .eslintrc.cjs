@@ -8,6 +8,7 @@ module.exports = {
     'airbnb',
     'airbnb/hooks',
     'plugin:tailwindcss/recommended',
+    'plugin:react/jsx-runtime',
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parser: '@typescript-eslint/parser',
@@ -17,5 +18,10 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    'react/jsx-filename-extension': [
+      'error',
+      { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
+    ],
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
   },
-}
+};
